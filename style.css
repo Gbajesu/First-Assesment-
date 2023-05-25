@@ -6,3 +6,70 @@
 .background-bg{
     background: url(/images/hero.png);
 }
+
+.brain a{
+    color: #0878A0;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.contact a{
+    color: #0D0D0D;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1em;
+}
+.read{
+    background-color: #FB1004;
+    color: #FFFEFE;
+    text-decoration: none;
+    padding: 7px 35px;
+    font-size: 1em;
+}
+
+/* nav */
+.stick{
+    position: sticky;
+}
+.navli a{
+color: #D8FFFF;
+font-weight: 400;
+font-size: .9em;
+}
+/* nav */
+
+/* about design */
+.aboutcon{
+    padding: 100px 20px;
+}
+.miniline{
+    border: 2px solid #6BD1BD ;
+    width: 2em;
+}
+/* about design */
+
+/* what we do */
+.ideas{
+    background-color: #FB1004;
+    color:#FFFBFF ;
+    border-radius: 1em;
+    padding: 1.5em;
+    text-align: center;
+}
+.controller{
+    background-color: #0CA57A;
+    color:#FFFBFF ;
+    border-radius: 1em;
+    padding: 1.5em;
+    text-align: center;
+}
+/* what we do */
+
+/* our skills */
+.skillimg{
+    background: url(/images/skill-bg.jpg);
+    height: 60vh;
+}
+.bo
+}
+/* our skills */
