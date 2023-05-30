@@ -1,4 +1,4 @@
-*{
+*, html{
     padding: 0;
     margin: 0;
 }
@@ -204,7 +204,7 @@ font-size: .9em;
     border: 2px solid #0CA57A ;
     width: 2em;
 }
-.borderline{
+.borderline2{
     padding-left: 40%;
     padding-top: .5em;
     color: #0D0D0D;
@@ -212,5 +212,100 @@ font-size: .9em;
 .card{
     border: none;
     background-color: #F3F3F3;
+    border-radius: 2em;
 }
+.testcard{
+    font-size: 1.5em;
+    color: #0CA57A;
+    font-weight: bold;
+}
+
 /* testimonial */
+
+/* contact us */
+.ctext{
+    color: #F3F3F3;
+    margin-left: 1.2em;
+}
+.contact1{
+    background-color: #0CA57A;
+    width: 10em;
+    height: 638.65px;
+}
+
+.contactli{
+    list-style: none;
+}
+input[type=text]{
+   width: 18em;
+   border-radius: 1.5em;
+   padding: .8em;
+   border: none;
+   margin: .8em;
+   
+}
+input::placeholder, textarea::placeholder {
+    font-size: 1.1em;
+    color: #0D0D0D;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+textarea[name=text]{
+    width: 18em;
+    border-radius: 1.5em;
+    padding: 1.5em 0px 2em .5em;
+    border: none;
+    margin: .8em;
+    height: 6em;
+    scroll-behavior: smooth;
+    overflow: hidden;
+    
+ }
+ .csend{
+    color: #FFFBFF;
+    background-color: #FB1004;
+    padding: .3em 2em;
+    margin-left: .8em;
+    border-radius: 2em;
+    font-size: 1.2em;
+    border: none;
+ }
+
+/* co}ntact us */
+
+/* footer */
+.footer1{
+    background-color: #201F33;
+    color: #F3F3F3;
+    padding: 0;
+    margin: 0;
+}
+.footli ,li,a{
+    list-style: square;
+    color: #D8FFFF;
+    text-decoration: none;
+}
+.footli1 li{
+    list-style: none;
+    text-decoration: none;
+}
+input[type=email]{
+    padding: 1em;
+    width: 16em;
+}
+.subbutton{
+    background-color: #0CA57A;
+    color: #F3F3F3;
+    border-radius: 2em;
+    border: none;
+}
+.copyrite{
+    margin-left : 20em;
+    border-top: 1px solid #FFFBFF;
+    width: 40em;
+    /* position: relative; */
+}
+/* footer */
